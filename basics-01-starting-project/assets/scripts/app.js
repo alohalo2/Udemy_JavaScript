@@ -26,7 +26,7 @@ function writeToLog(
         result: newResult,
     };
     logEntries.push(logEntry);
-    console.log(logEntries);
+    console.log(logEntries[1]);
 }
 
 // parseInt: 문자를 정수로 변환
