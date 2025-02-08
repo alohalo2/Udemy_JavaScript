@@ -5,6 +5,8 @@
 //     console.log(hobbies);
 // }
 
+
+
 // function greet() {
 //     let age = 30;
 //     let name = 'Manuel';
