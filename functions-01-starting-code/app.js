@@ -21,9 +21,13 @@ console.dir(ParentFunction);
 // ex) if(i > 0) {}...
 // 표현식: 값을 반환함, 변수 할당 가능
 // ex) i > 0 ...
-const start = function startGame() {
-    console.log('Game is starting...');
-}
+// const start = function startGame() {
+//     console.log('Game is starting...');
+// }
+
+// const start = function () {
+//     console.log('Game is starting...');
+// }
 
 //--------------------------------------------------
 // const person = {
@@ -38,4 +42,8 @@ const start = function startGame() {
 // console.dir(startGame);
 
 // startGameBtn.addEventListener('click', startGame);
-startGameBtn.addEventListener('click', start);
+// startGameBtn.addEventListener('click', start);
+// 익명 함수는 재사용성이 없는 경우에 addEventListener와 연결해서 많이 사용된다.
+startGameBtn.addEventListener('click', function() {
+    console.log('Game is starting...');
+});
