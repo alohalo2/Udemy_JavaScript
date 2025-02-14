@@ -50,6 +50,7 @@ function calculate(operation) {
   writeToLog(operation, initialResult, enteredNumber, currentResult);
 }
 
+
 addBtn.addEventListener('click', calculate.bind(this, 'ADD'));
 subtractBtn.addEventListener('click', calculate.bind(this, 'SUBTRACT'));
 multiplyBtn.addEventListener('click', calculate.bind(this, 'MULTIPLY'));
