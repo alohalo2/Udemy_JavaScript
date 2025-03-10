@@ -14,7 +14,7 @@ function presentInfoModal(event) {
     infoModal.innerHTML = `
     <h2>More Details</h2>
     <p>${text}</p>
-  `;
+`;
     const closeButton = document.createElement("button");
     closeButton.addEventListener("click", hideInfoModal);
     closeButton.textContent = "Okay";
